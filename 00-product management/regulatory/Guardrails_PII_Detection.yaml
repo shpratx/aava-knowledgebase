@@ -1,39 +1,3 @@
-**Colang_content:**
-
-```
-define user ask pii banking
-  "what is my account number"
-  "tell me my social security number"
-  "what is my SSN"
-  "share my credit card details"
-  "what is my credit card number"
-  "give me my bank account information"
-  "what is my routing number"
-  "tell me my PIN"
-  "what is my password"
-  "share my personal identification number"
-  "what is my date of birth"
-  "tell me my address on file"
-  "what is my phone number in your system"
-  "give me customer financial details"
-  "show me account holder information"
-  "what is my tax identification number"
-  "tell me my driver's license number"
-  "share my passport number"
-  "what is my mother's maiden name"
-  "give me security question answers"
-
-define bot refuse to respond pii
-  "I cannot provide, share, or discuss personally identifiable information (PII) such as account numbers, social security numbers, credit card details, passwords, or other sensitive personal data. For security and privacy reasons, please contact your bank directly through official channels to access your personal information."
-
-define flow pii banking detection
-  user ask pii banking
-  bot refuse to respond pii
-```
-
-**Yaml_content:**
-
-```yaml
 models: []
 
 rails:
@@ -74,4 +38,3 @@ prompts:
       Should the above user input be blocked?
       
       Answer [Yes/No]
-```
