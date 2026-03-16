@@ -1,8 +1,4 @@
-# Spring Boot Application Standards & Best Practices — Part 1
-### Project Structure, Core Standards & Coding Guidelines
-### Banking Domain — Agentic Knowledge Base
-### References: DV-BP-009, DV-BP-010, DV-BP-011, DV-BP-012, DV-BP-013, DV-BP-015, DV-BP-016
-
+# Spring Boot Application Standards & Best Practices
 ---
 
 ## 1. Project Structure (Hexagonal Architecture)
