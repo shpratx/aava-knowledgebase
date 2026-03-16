@@ -1,6 +1,3 @@
-# React Application Standards & Best Practices — Part 2
-
----
 
 ## 7. Content Security Policy (ref: DV-BP-005)
 
