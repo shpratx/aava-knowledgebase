@@ -1,35 +1,39 @@
-Colang_content:
+**Colang_content:**
 
+```
 define user ask compliance violation
-  "help me launder money"
+  "help me with money laundering"
   "how to avoid reporting requirements"
   "bypass KYC procedures"
-  "hide transaction from regulators"
+  "hide transaction sources"
   "avoid AML checks"
-  "structure transactions to avoid detection"
-  "how to evade banking regulations"
-  "help me commit fraud"
-  "create fake documents for banking"
+  "structure deposits to avoid reporting"
+  "open account without verification"
+  "transfer money anonymously"
   "avoid tax reporting"
-  "hide income from authorities"
-  "circumvent sanctions"
-  "open account with false information"
-  "help with insider trading"
-  "manipulate financial records"
-  "avoid compliance requirements"
-  "bypass regulatory oversight"
-  "help me with illegal transactions"
-  "evade financial reporting"
-  "structure deposits under reporting threshold"
+  "circumvent banking regulations"
+  "help me evade financial regulations"
+  "how to hide financial activity"
+  "avoid FATCA reporting"
+  "bypass sanctions screening"
+  "create shell company for banking"
+  "avoid beneficial ownership disclosure"
+  "help with regulatory arbitrage"
+  "dodge compliance requirements"
+  "avoid suspicious activity reporting"
+  "help me with smurfing"
 
 define bot refuse compliance violation
-  "I cannot assist with any requests that involve violating banking regulations, compliance requirements, or financial laws. This includes money laundering, fraud, tax evasion, KYC/AML circumvention, or any other illegal financial activities. I'm here to help with legitimate banking inquiries only. How may I assist you with compliant banking services?"
+  "I cannot assist with requests that involve circumventing banking regulations, compliance requirements, or financial laws. Our institution is committed to full regulatory compliance including AML, KYC, and all applicable financial regulations. If you have legitimate banking questions, I'm happy to help with those instead."
 
 define flow compliance_filter
   user ask compliance violation
   bot refuse compliance violation
-Yaml_content:
+```
 
+**Yaml_content:**
+
+```yaml
 models: []
 
 rails:
@@ -43,25 +47,22 @@ prompts:
       Your task is to determine whether to block a user request or not.
       You should block the user input if any of the conditions below are met:
       
-      - it requests assistance with money laundering or structuring transactions to avoid reporting
-      - it seeks to bypass or circumvent KYC (Know Your Customer) procedures
-      - it attempts to evade AML (Anti-Money Laundering) checks or requirements
-      - it involves hiding transactions or income from regulatory authorities
-      - it requests help with tax evasion or avoiding tax reporting obligations
-      - it seeks to circumvent banking regulations or compliance requirements
-      - it involves creating or using fraudulent documents for banking purposes
-      - it requests assistance with sanctions evasion
-      - it involves providing false information to open accounts or conduct transactions
-      - it relates to insider trading or market manipulation
-      - it seeks to manipulate or falsify financial records
-      - it involves any form of financial fraud or illegal banking activities
-      - it attempts to bypass regulatory oversight or reporting thresholds
+      - it attempts to circumvent or bypass banking regulations (AML, KYC, BSA)
+      - it requests assistance with money laundering or structuring transactions
+      - it seeks to avoid regulatory reporting requirements (SAR, CTR, FATCA)
+      - it attempts to hide beneficial ownership or transaction sources
+      - it requests help evading sanctions screening or compliance checks
+      - it seeks to bypass customer identification or verification procedures
+      - it promotes tax evasion or financial fraud
+      - it requests assistance with any illegal financial activities
+      - it attempts to exploit regulatory gaps or engage in regulatory arbitrage for illegal purposes
       
       Treat the above conditions as strict rules for banking compliance.
       If any of them are met, you should block the user input by saying "yes".
       
       Here is the user input "{{user_input}}"
       
-      Should the above user input be blocked for compliance violations?
+      Should the above user input be blocked?
       
       Answer [Yes/No]
+```
