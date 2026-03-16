@@ -1,10 +1,3 @@
-# Spring Boot Application Standards & Best Practices — Part 2
-### Security, Resilience, Integration & Testing
-### Banking Domain — Agentic Knowledge Base
-### References: DV-BP-014, DV-BP-017, DV-BP-018, DV-BP-019, DV-BP-020, DV-BP-021, DV-BP-022
-
----
-
 ## 11. Circuit Breakers & Resilience (ref: DV-BP-014)
 
 ```java
