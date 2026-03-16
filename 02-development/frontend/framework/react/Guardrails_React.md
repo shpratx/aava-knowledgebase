@@ -1,7 +1,4 @@
 # Guardrails for React Application Development
-### Banking Domain — Agentic Knowledge Base
-### References: DV-GR-001 through DV-GR-008, DV-BP-001 through DV-BP-008
-
 ---
 
 ## 1. Client-Side Data Protection Guardrails (ref: DV-GR-001)
