@@ -1,7 +1,4 @@
 # Guardrails for Spring Boot Application Development
-### Banking Domain — Agentic Knowledge Base
-### References: DV-GR-009 through DV-GR-024
-
 ---
 
 ## 1. Endpoint Security Guardrails (ref: DV-GR-009)
