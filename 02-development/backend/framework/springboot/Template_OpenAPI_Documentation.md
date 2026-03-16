@@ -1,5 +1,4 @@
 # OpenAPI 3.0 Specification Template & Documentation Standards
-
 ---
 
 ## 1. OpenAPI 3.0 Specification Template
