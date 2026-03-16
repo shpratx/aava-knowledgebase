@@ -1,5 +1,4 @@
-# React Application Standards & Best Practices — Part 1
-
+# React Application Standards & Best Practices
 ---
 
 ## 1. Project Structure
