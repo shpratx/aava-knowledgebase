@@ -1,5 +1,4 @@
 # HTML & JavaScript Development Standards, Best Practices & Guardrails
-
 ---
 
 ## Part A: HTML Standards & Best Practices
