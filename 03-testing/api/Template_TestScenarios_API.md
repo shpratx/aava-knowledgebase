@@ -1,6 +1,4 @@
 # Test Scenario Template — API Features
-### Banking Domain — Agentic Knowledge Base
-
 ---
 
 ## Test Scenario Metadata
